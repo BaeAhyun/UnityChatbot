@@ -1,6 +1,12 @@
 # 가상 환경
 venv/
 
+# HTML 원본 파일
+html_files/
+
+# Claude 설정
+.claude/
+
 # Chroma 벡터 DB (로컬 생성 파일)
 data/chroma_db/
 
