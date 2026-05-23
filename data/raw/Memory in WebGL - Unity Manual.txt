@@ -1,0 +1,1693 @@
+Memory in WebGL - Unity Manual
+Manual
+Scripting API
+unity3d.com
+Version:
+2018.3
+2020.1
+2019.4
+2019.3
+2019.2
+2019.1
+2018.4
+2018.3
+2018.2
+2018.1
+2017.4
+2017.3
+2017.2
+2017.1
+5.6
+Manual
+Scripting API
+Language:
+한국어
+English
+中文
+日本語
+Español
+한국어
+Русский
+Manual
+Version:
+2018.3
+2020.1
+2019.4
+2019.3
+2019.2
+2019.1
+2018.4
+2018.3
+2018.2
+2018.1
+2017.4
+2017.3
+2017.2
+2017.1
+5.6
+Unity User Manual (2018.3)
+Documentation versions
+Switching between Unity versions in the documentation
+Offline documentation
+Documentation editorial review
+Working in Unity
+Getting Started
+Unity Hub
+Installing Unity using the Hub
+Adding components to the Unity Editor
+Installing Unity without the hub
+Installing Unity offline without the Hub
+Unity Hub advanced deployment considerations
+2D or 3D projects
+Project Templates
+Starting Unity for the first time
+The Learn tab
+Opening existing Projects
+Learning the interface
+Asset Workflow
+Common types of Assets
+Primitive and placeholder objects
+Asset packages
+Using the Asset Store
+The Main Windows
+The Project window
+The Scene view
+Scene view navigation
+Positioning GameObjects
+Scene view Control Bar
+Gizmos menu
+The Game view
+The Hierarchy window
+The Inspector window
+Assigning icons
+Editing Properties
+Swatch libraries
+Inspector Options
+The Toolbar
+Searching
+Other windows
+Customizing Your Workspace
+Unity hotkeys
+Creating Gameplay
+Scenes
+GameObjects
+GameObject
+Introduction to components
+Using Components
+Transform
+Creating components with scripting
+Deactivating GameObjects
+Tags
+Static GameObjects
+Saving Your Work
+Prefabs
+Creating Prefabs
+Editing a Prefab in Prefab Mode
+Instance overrides
+Editing a Prefab via its instances
+Nested Prefabs
+Prefab Variants
+Overrides at multiple levels
+Unpacking Prefab instances
+Instantiating Prefabs at runtime
+Input
+Conventional Game Input
+Mobile Device Input
+Mobile Keyboard
+Transforms
+Constraints
+Aim Constraints
+Look At Constraints
+Parent Constraints
+Position Constraints
+Rotation Constraints
+Scale Constraints
+Rotation and Orientation in Unity
+Lights
+Cameras
+Adding Random Gameplay Elements
+Cross-Platform Considerations
+Publishing Builds
+Troubleshooting
+Editor Features
+2D 및 3D 모드 설정
+Preferences
+Presets
+Build Settings
+Project Settings
+Input
+Tags and Layers
+Audio
+Time
+Player
+Splash Screen
+Physics
+Physics 2D
+Quality
+Graphics
+Network Manager
+Editor
+Script Execution Order
+Preset Manager
+Visual Studio C# integration
+RenderDoc Integration
+Editor Analytics
+Check For Updates
+IME in Unity
+Special folder names
+Exporting Packages
+Version Control
+Version control integration
+Perforce Integration
+Plastic SCM Integration
+Using external version control systems with Unity
+Smart Merge
+Troubleshooting The Editor
+고급 개발
+Profiler overview
+Profiler window
+CPU Usage Profiler
+Rendering Profiler
+Memory Profiler
+Audio Profiler
+Physics Profiler
+GPU Profiler
+Global Illumination Profiler
+UI Profiler
+Multi-Scene editing
+Loading Resources at Runtime
+Plug-ins
+Plugin Inspector
+Managed plug-ins
+Native plug-ins
+Building plug-ins for desktop platforms
+Low-level native plug-in interface
+Low-level native plug-in Profiler API
+Low-level native plug-in rendering extensions
+Low-level native plug-in Shader compiler access
+AssetBundles
+AssetBundle Workflow
+Preparing Assets for AssetBundles
+Building AssetBundles
+AssetBundle Dependencies
+Using AssetBundles Natively
+AssetBundle Manager
+Patching with AssetBundles
+Troubleshooting
+Unity Asset Bundle Browser tool
+Reducing the file size of your build
+Social API
+JSON Serialization
+Streaming Assets
+ScriptableObject
+고급 에디터 토픽
+Build Player Pipeline
+Command line arguments
+Batch mode and built-in coroutine compatibility
+Applying defaults to assets by folder
+Support for custom Menu Item and Editor features
+Behind the Scenes
+AssetDatabase
+Text-Based Scene Files
+Description of the Format
+An Example of a YAML Scene File
+YAML Class ID Reference
+Cache Server
+Modifying Source Assets Through Scripting
+Extending the Editor
+Editor Windows
+Property Drawers
+Custom Editors
+TreeView
+Running Editor Script Code on Launch
+Licenses and Activation
+Online activation
+Offline / Manual Activation
+Managing your License
+정품 활성화 FAQ
+Upgrade Guides
+Using the Automatic API Updater
+Upgrading to Unity 2018.3
+Upgrading to Unity 2018.2
+Upgrading to Unity 2018.1
+Upgrading to Unity 2017.3
+Upgrading to Unity 2017.2
+Upgrading to Unity 2017.1
+Upgrading to Unity 5.6
+Upgrading to Unity 5.5
+Upgrading to Unity 5.4
+5.4 Networking API Changes
+Upgrading to Unity 5.3
+Upgrading to Unity 5.2
+Upgrading to Unity 5.0
+AI in Unity 5.0
+Animation in Unity 5.0
+Audio in Unity 5.0
+Baked Data in Unity 5.0
+Plugins in Unity 5.0
+Physics in Unity 5.0
+Shaders in Unity 5.0
+Other Upgrade Notes for Unity 5.0
+Upgrading to Unity 4.0
+Upgrading to Unity 3.5
+Importing
+Importing Models
+Importing humanoid animations
+Importing non-humanoid animations
+Model Import Settings window
+Model tab
+Rig tab
+Avatar Mapping tab
+Avatar Muscle & Settings tab
+Avatar Mask window
+Human Template window
+Animation tab
+Euler curve resampling
+Extracting animation clips
+Loop optimization on Animation clips
+Curves
+Events
+Mask
+Motion
+Materials tab
+SketchUp Settings
+SpeedTree Import Settings window
+Model tab
+Materials tab
+지원되는 모델 파일 포맷
+Limitations when importing from other applications
+Exporting from other applications
+Humanoid Asset preparation
+2D
+Gameplay in 2D
+2D Sorting
+Sprites
+Sprite Renderer
+Sprite Creator
+Sprite Editor
+Sprite Editor: Custom Outline
+Sprite Editor: Custom Physics Shape
+(Legacy) Sprite Packer
+Sorting Group
+9슬라이싱 스프라이트
+Sprite Masks
+Sprite Atlas
+Master and Variant Sprite Atlases
+Variant Sprite Atlas
+Sprite Atlas workflow
+Preparing Sprite Atlases for distribution
+Methods of distribution
+Late Binding
+Resolving different Sprite Atlas scenarios
+Sprite Packer Modes
+(Legacy) Sprite Packer
+Tilemap
+Tile Assets
+Tilemap Renderer
+Creating Tiles
+Creating Tilemaps
+Tile Palette
+Painting on Tilemaps
+Hexagonal Tilemaps
+Tilemap Collider 2D
+Isometric Tilemaps
+Importing and preparing Sprites
+Creating an Isometric Tilemap
+Creating a Tile Palette for an Isometric Tilemap
+Tilemap Renderer Modes
+Scriptable Brushes
+Scriptable Tiles
+TileBase
+Tile
+TileData
+TileAnimationData
+Other useful classes
+Scriptable Tile example
+Scriptable Brushes
+GridBrushBase
+GridBrushEditorBase
+Other useful classes
+Scriptable Brush example
+Physics Reference 2D
+Rigidbody 2D
+Collider 2D
+Circle Collider 2D
+Box Collider 2D
+Polygon Collider 2D
+Edge Collider 2D
+Capsule Collider 2D
+Composite Collider 2D
+Physics Material 2D
+2D Joints
+Distance Joint 2D
+Fixed Joint 2D
+Friction Joint 2D
+Hinge Joint 2D
+Relative Joint 2D
+Slider Joint 2D
+Spring Joint 2D
+Target Joint 2D
+Wheel Joint 2D
+Constant Force 2D
+Effectors 2D
+Area Effector 2D
+Buoyancy Effector 2D
+Point Effector 2D
+Platform Effector 2D
+Surface Effector 2D
+Graphics
+Graphics Overview
+Lighting
+Lighting overview
+Lighting Window
+Light Explorer
+Light sources
+Types of light
+The Light Inspector
+Using Lights
+Cookies
+Shadows
+Shadows
+Directional light shadows
+Global Illumination
+Lightmapping
+Progressive GPU Lightmapper (Preview)
+Progressive CPU Lightmapper
+Lightmapping: Getting started
+Lightmap seam stitching
+UV overlap feedback
+Custom fall-off
+Enlighten
+Using precomputed lighting
+LOD and Realtime GI
+Lightmapping: Getting started
+Lightmap seam stitching
+UV overlap feedback
+Custom fall-off
+Lightmap Parameters
+Baked ambient occlusion
+LOD for baked lightmaps
+Light Probes
+Light Probes: Technical information
+Light Probe Groups
+Placing probes using scripting
+Light Probes for moving objects
+Light Probes and the Mesh Renderer
+Light Probe Proxy Volume component
+Reflection probes
+Types of Reflection Probe
+Using Reflection Probes
+고급 반사 프로브 기능
+Reflection probe performance and optimisation
+Lighting Modes
+Lighting: Technical information and terminology
+Real-time lighting
+Mixed lighting
+Baked Indirect mode
+Shadowmask mode
+Shadowmask
+Distance Shadowmask
+Subtractive mode
+Baked lighting
+GI visualizations in the Scene view
+Lighting Data Asset
+Lightmap Directional Modes
+Lightmaps: Technical information
+Material properties and the GI system
+Global Illumination UVs
+Importing UVs from Autodesk® Maya® to Unity
+Generating Lightmap UVs
+GI cache
+Light troubleshooting and performance
+Related topics
+Linear rendering overview
+Linear or gamma workflow
+Gamma Textures with linear rendering
+Working with linear Textures
+Cameras
+Using more than one camera
+Using Physical Cameras
+Camera Tricks
+Understanding the View Frustum
+The Size of the Frustum at a Given Distance from the Camera
+Dolly Zoom (AKA the "Trombone" Effect)
+Rays from the Camera
+Using an Oblique Frustum
+Creating an Impression of Large or Small Size
+Occlusion Culling
+Dynamic resolution
+Materials, Shaders & Textures
+Textures
+Creating and Using Materials
+Standard Shader
+Content and Context
+Metallic vs Specular Workflow
+Material parameters
+Rendering Mode
+Albedo Color and Transparency
+Specular mode: Specular parameter
+Metallic mode: Metallic Parameter
+Smoothness
+Normal map (Bump mapping)
+Heightmap
+Occlusion Map
+Emission
+Secondary Maps (Detail Maps) & Detail Mask
+The Fresnel Effect
+Material charts
+Make your own
+Standard Particle Shaders
+Physically Based Rendering Material Validator
+Accessing and Modifying Material parameters via script
+Writing Shaders
+Legacy Shaders
+Usage and Performance of Built-in Shaders
+Normal Shader Family
+Vertex-Lit
+Diffuse
+Specular
+Bumped Diffuse
+Bumped Specular
+Parallax Diffuse
+Parallax Bumped Specular
+Decal
+Diffuse Detail
+Transparent Shader Family
+Transparent Vertex-Lit
+Transparent Diffuse
+Transparent Specular
+Transparent Bumped Diffuse
+Transparent Bumped Specular
+Transparent Parallax Diffuse
+Transparent Parallax Specular
+Transparent Cutout Shader Family
+Transparent Cutout Vertex-Lit
+Transparent Cutout Diffuse
+Transparent Cutout Specular
+Transparent Cutout Bumped Diffuse
+Transparent Cutout Bumped Specular
+Self-Illuminated Shader Family
+Self-Illuminated Vertex-Lit
+Self-Illuminated Diffuse
+Self-Illuminated Specular
+Self-Illuminated Normal mapped Diffuse
+Self-Illuminated Normal mapped Specular
+Self-Illuminated Parallax Diffuse
+Self-Illuminated Parallax Specular
+Reflective Shader Family
+Reflective Vertex-Lit
+Reflective Diffuse
+Reflective Specular
+Reflective Bumped Diffuse
+Reflective Bumped Specular
+Reflective Parallax Diffuse
+Reflective Parallax Specular
+Reflective Normal Mapped Unlit
+Reflective Normal mapped Vertex-lit
+Video overview
+Video Player component
+Video Clips
+Video sources
+Video file compatibility
+Understanding video files
+Video transparency support
+Panoramic video
+Terrain Engine
+Creating and editing Terrains
+Terrain tools
+Create Neighbor Terrains
+Raise or Lower Terrain
+Paint Texture
+Set Height
+Smooth Height
+Stamp Terrain
+Terrain Layers
+Brushes
+Trees
+SpeedTree
+Wind Zones
+Grass and other details
+Working with Heightmaps
+Terrain settings
+Tree Editor
+Building Your First Tree
+Tree  Basics
+Branch Group Properties
+Leaf Group Properties
+Tree - Wind Zones
+Particle Systems
+What is a Particle System?
+Using Particle Systems in Unity
+Particle System How-Tos
+A Simple Explosion
+Exhaust Smoke from a Vehicle
+Particle System vertex streams and Standard Shader support
+Particle System GPU Instancing
+Post-processing overview
+Anti-aliasing
+Ambient Occlusion
+Bloom
+Chromatic Aberration
+Color Grading
+Deferred Fog
+Depth of Field
+Auto Exposure
+Grain
+Motion Blur
+Screen Space Reflection
+Vignette
+Advanced Rendering Features
+High Dynamic Range Rendering
+HDR color picker
+Rendering Paths
+Level of Detail (LOD)
+Graphics API support
+DirectX
+Metal
+OpenGL Core
+Compute shaders
+Graphics Command Buffers
+GPU instancing
+Sparse Textures
+Graphics hardware capabilities and emulation
+CullingGroup API
+Asynchronous Texture Upload
+Procedural Mesh Geometry
+메시의 구조
+Using the Mesh Class
+Example - Creating a Quad
+Optimizing graphics performance
+Draw call batching
+Modeling characters for optimal performance
+Rendering Statistics Window
+Frame Debugger
+Optimizing Shader Load Time
+Texture Streaming
+Streaming Controller
+Texture Streaming API
+Layers
+Layer-based collision detection
+Graphics Reference
+Cameras Reference
+Camera
+Flare Layer
+GUI Layer (Legacy)
+Shader Reference
+Writing Surface Shaders
+Surface Shader examples
+Custom lighting models in Surface Shaders
+Surface Shader lighting examples
+Surface Shaders with DX11 / OpenGL Core Tessellation
+Writing vertex and fragment shaders
+Vertex and fragment shader examples
+Shader semantics
+Accessing shader properties in Cg/HLSL
+Providing vertex data to vertex programs
+Built-in shader include files
+Predefined Shader preprocessor macros
+Built-in shader helper functions
+Built-in shader variables
+Making multiple shader program variants
+GLSL Shader programs
+Shading Language used in Unity
+Shader Compilation Target Levels
+Shader data types and precision
+Using sampler states
+ShaderLab Syntax
+ShaderLab: Properties
+ShaderLab: SubShader
+ShaderLab: Pass
+ShaderLab: Culling & Depth Testing
+ShaderLab: Blending
+ShaderLab: Pass Tags
+ShaderLab: Stencil
+ShaderLab: Name
+ShaderLab: Legacy Lighting
+ShaderLab: Legacy Texture Combiners
+ShaderLab: Legacy Alpha Testing
+ShaderLab: Legacy Fog
+ShaderLab: Legacy BindChannels
+ShaderLab: UsePass
+ShaderLab: GrabPass
+ShaderLab: SubShader Tags
+ShaderLab: Fallback
+ShaderLab: CustomEditor
+ShaderLab: other commands
+Shader assets
+Advanced ShaderLab topics
+Unity's Rendering Pipeline
+Performance tips when writing shaders
+Rendering with Replaced Shaders
+Custom Shader GUI
+Using Depth Textures
+Camera's Depth Texture
+Platform-specific rendering differences
+Shader Level of Detail
+Texture arrays
+Debugging DirectX 11/12 shaders with Visual Studio
+Debugging DirectX 12 shaders with PIX
+Implementing Fixed Function TexGen in Shaders
+Particle Systems reference
+Particle System
+Particle System modules
+Particle System Main module
+Emission module
+Shape Module
+Velocity over Lifetime module
+Noise module
+Limit Velocity Over Lifetime module
+Inherit Velocity module
+Force Over Lifetime module
+Color Over Lifetime module
+Color By Speed module
+Size over Lifetime module
+Size by Speed module
+Rotation Over Lifetime module
+Rotation By Speed module
+External Forces module
+Collision module
+Triggers module
+Sub Emitters module
+Texture Sheet Animation module
+Lights module
+Trails module
+Custom Data module
+Renderer module
+Particle System Force Field
+Particle Systems (Legacy, prior to release 3.5)
+Ellipsoid Particle Emitter (Legacy)
+Mesh Particle Emitter (Legacy)
+Particle Animator (Legacy)
+Particle Renderer (Legacy)
+World Particle Collider (Legacy)
+Visual Effects Reference
+Halo
+Lens Flare
+Flare
+Line Renderer
+Trail Renderer
+Billboard Renderer
+Billboard Asset
+Projector
+Mesh Components
+Meshes
+Material
+Mesh Filter
+Mesh Renderer
+Skinned Mesh Renderer
+Text Mesh
+Text Asset
+Font
+Texture Components
+Textures
+Importing Textures
+Texture Types
+Texture compression formats for platform-specific overrides
+Render Texture
+Custom Render Textures
+Movie Textures
+3D Textures
+Texture arrays
+Rendering Components
+Cubemap
+Occlusion Area
+Occlusion Portals
+Skybox
+Reflection Probe
+LOD Group
+Rendering Pipeline Details
+Deferred shading rendering path
+Forward Rendering Path Details
+Legacy Deferred Lighting Rendering Path
+Vertex Lit Rendering Path Details
+Hardware Requirements for Unity's Graphics Features
+Graphics HOWTOs
+How do I Import Alpha Textures?
+How do I Make a Skybox?
+How do I make a Mesh Particle Emitter? (Legacy Particle System)
+How do I make a Spot Light Cookie?
+How do I fix the rotation of an imported model?
+Water in Unity
+Art Asset best practice guide
+Importing models from 3D modeling software
+How to do Stereoscopic Rendering
+Graphics Tutorials
+Shaders: ShaderLab and fixed function shaders
+Shaders: vertex and fragment programs
+Scriptable Render Pipeline
+Physics
+Physics Overview
+Rigidbody overview
+Colliders
+Joints
+Character Controllers
+Continuous collision detection (CCD)
+Physics Debug Visualization
+3D Physics Reference
+Box Collider
+Capsule Collider
+Character Controller
+Character Joint
+Configurable Joint
+Constant Force
+Fixed Joint
+Hinge Joint
+Mesh Collider
+Rigidbody
+Sphere Collider
+Spring Joint
+Cloth
+Wheel Collider
+Terrain Collider
+Physic Material
+Physics HOWTOs
+Ragdoll Wizard
+Joint and Ragdoll stability
+Wheel Collider Tutorial
+Scripting
+Scripting Overview
+Creating and Using Scripts
+Variables and the Inspector
+Controlling GameObjects using components
+Event Functions
+Time and Framerate Management
+Creating and Destroying GameObjects
+Coroutines
+Namespaces
+Attributes
+Order of Execution for Event Functions
+Understanding Automatic Memory Management
+Platform dependent compilation
+Special folders and script compilation order
+Script compilation and assembly definition files
+Managed code stripping
+.NET profile support
+Referencing additional class library assemblies
+Stable scripting runtime: known limitations
+Generic Functions
+Scripting restrictions
+Script Serialization
+Built-in serialization
+Custom serialization
+Script serialization errors
+UnityEvents
+What is a Null Reference Exception?
+Important Classes
+Vector Cookbook
+Understanding Vector Arithmetic
+Direction and Distance from One Object to Another
+Computing a Normal/Perpendicular vector
+다른 벡터 방향 위에 놓인 벡터의 크기 측정
+Scripting Tools
+Console Window
+Log Files
+Unity Test Runner
+Writing and executing tests in Unity Test Runner
+C# compiler
+IL2CPP
+Building a project using IL2CPP
+Compiler options
+Windows Runtime support
+How IL2CPP works
+Optimizing IL2CPP build times
+Managed bytecode stripping with IL2CPP
+Integrated development environment (IDE) support
+Debugging C# code in Unity
+Event System
+Messaging System
+Input Modules
+Supported Events
+Raycasters
+Event System Reference
+Event System Manager
+Graphic Raycaster
+Physics Raycaster
+Physics 2D Raycaster
+Standalone Input Module
+Touch Input Module
+Event Trigger
+C# Job System
+C# Job System Overview
+What is multithreading?
+What is a job system?
+The safety system in the C# Job System
+NativeContainer
+Creating jobs
+Scheduling jobs
+JobHandle and dependencies
+ParallelFor jobs
+ParallelForTransform jobs
+C# Job System tips and troubleshooting
+Multiplayer and Networking
+Multiplayer Overview
+Setting up a multiplayer project
+Using the Network Manager
+Using the Network Manager HUD
+The Network Manager HUD in LAN mode
+The Network Manager HUD in Matchmaker mode
+Converting a single-player game to Unity Multiplayer
+Debugging Information
+The Multiplayer High Level API
+Networking HLAPI System Concepts
+Networked GameObjects
+Player GameObjects
+Custom Player Spawning
+Spawning GameObjects
+Custom Spawn Functions
+Network Authority
+State synchronization
+Advanced State Synchronization
+Network visibility
+Customizing network visibility
+Scene GameObjects
+Actions and communication
+Remote Actions
+Network Manager callbacks
+NetworkBehaviour callbacks
+Network Messages
+Dealing with clients and servers
+Network clients and servers
+Host Migration
+Network Discovery
+Multiplayer Lobby
+Using the Transport Layer API
+NetworkReader and NetworkWriter serializers
+Setting up Unity Multiplayer
+Integrating the Multiplayer Service
+Integration using the HUD
+Integration using Unity's High-Level API
+Integration using NetworkTransport
+Common Errors
+Customized Matchmaking callbacks
+Networking Tips for Mobile devices.
+Multiplayer Component Reference
+Network Animator
+Network Discovery
+Network Identity
+Network Lobby Manager
+Network Lobby Player
+Network Manager HUD
+Network Manager
+Network Proximity Checker
+NetworkStartPosition
+Network Transform
+Network Transform Child
+Network Transform Visualizer
+Multiplayer Classes Reference
+NetworkBehaviour
+NetworkClient
+NetworkConnection
+NetworkServer
+NetworkServerSimple
+UnityWebRequest
+Common operations: using the HLAPI
+Retrieving text or binary data from an HTTP Server (GET)
+Retrieving a Texture from an HTTP Server (GET)
+Downloading an AssetBundle from an HTTP server (GET)
+Sending a form to an HTTP server (POST)
+Uploading raw data to an HTTP server (PUT)
+Advanced operations: Using the LLAPI
+Creating UnityWebRequests
+Creating UploadHandlers
+Creating DownloadHandlers
+Audio
+Audio Overview
+Audio files
+Tracker Modules
+Audio Mixer
+An overview of the concepts and AudioMixer
+Specifics on the AudioMixer window
+AudioGroup Inspector
+Overview of Usage and API
+Native Audio Plugin SDK
+Audio Spatializer SDK
+Audio Profiler
+앰비소닉 오디오
+Audio Reference
+Audio Clip
+Audio Listener
+Audio Source
+Audio Mixer
+Audio Filters
+Audio Low Pass Filter
+Audio High Pass Filter
+Audio Echo Filter
+Audio Distortion Filter
+Audio Reverb Filter
+Audio Chorus Filter
+Audio Effects
+Audio Low Pass Effect
+Audio High Pass Effect
+Audio Echo Effect
+Audio Flange Effect
+Audio Distortion Effect
+Audio Normalize Effect
+Audio Parametric Equalizer Effect
+Audio Pitch Shifter Effect
+Audio Chorus Effect
+Audio Compressor Effect
+Audio SFX Reverb Effect
+Audio Low Pass Simple Effect
+Audio High Pass Simple Effect
+Reverb Zones
+Microphone
+Audio Settings
+Animation
+Animation System Overview
+Animation Clips
+Animation from external sources
+Humanoid Avatars
+Animation Window Guide
+Using the Animation view
+Creating a New Animation Clip
+Animating a GameObject
+Using Animation Curves
+Editing Curves
+Key manipulation in Dopesheet mode
+Key manipulation in Curves mode
+Objects with Multiple Moving Parts
+Using Animation Events
+Animator Controllers
+The Animator Controller Asset
+The Animator Window
+Animation State Machines
+State Machine Basics
+Animation Parameters
+State Machine Transitions
+State Machine Behaviours
+Sub-State Machines
+Animation Layers
+Solo and Mute functionality
+Target Matching
+Inverse Kinematics
+Root Motion - how it works
+Tutorial: Scripting Root Motion for "in-place" humanoid animations
+Blend Trees
+1D Blending
+2D Blending
+Direct Blending
+Additional Blend Tree Options
+Animation Blend Shapes
+Animator Override Controllers
+Retargeting of Humanoid animations
+Performance and optimization
+Animation Reference
+Animator Component
+Animator Controller
+Creating an AnimatorController
+Animation States
+Animation transitions
+Animation FAQ
+Playables API
+The PlayableGraph
+ScriptPlayable and PlayableBehaviour
+Playables Examples
+A Glossary of animation terms
+Timeline
+Timeline overview
+Timeline workflows
+Creating a Timeline Asset and Timeline instance
+Recording basic animation with an Infinite clip
+Converting an Infinite clip to an Animation clip
+Creating humanoid animation
+Using Animation Override Tracks and Avatar Masking
+Timeline Editor window
+Timeline Preview and Timeline Selector
+Timeline Playback Controls
+Track List
+Adding tracks
+Selecting tracks
+Duplicating tracks
+Deleting tracks
+Locking tracks
+Muting tracks
+Reordering tracks and rendering priority
+Organizing tracks into Track groups
+Hiding and showing Track groups
+Clips view
+Navigating the Clips view
+Adding clips
+Selecting clips
+Positioning clips
+Tiling clips
+Duplicating clips
+Trimming clips
+Splitting clips
+Resetting clips
+Changing clip play speed
+Setting gap extrapolation
+Easing-in and Easing-out clips
+Blending clips
+Matching clip offsets
+Curves view
+Hiding and showing curves
+Navigating the Curves view
+Selecting keys
+Adding keys
+Editing keys
+Changing interpolation and shape
+Deleting keys
+Timeline Settings
+Timeline and the Inspector Window
+Setting Timeline properties
+Setting Track properties
+Activation Track properties
+Animation Track properties
+Setting Clip properties
+Activation Clip properties
+Animation Clip common properties
+Animation Clip playable asset properties
+Audio Clip properties
+Playable Director component
+Timeline glossary
+UI
+Canvas
+Basic Layout
+Visual Components
+Interaction Components
+Animation Integration
+Auto Layout
+Rich Text
+UI Reference
+Rect Transform
+Canvas Components
+Canvas
+Canvas Scaler
+Canvas Group
+Canvas Renderer
+Visual Components
+Text
+Image
+Raw Image
+Mask
+RectMask2D
+UI Effect Components
+Shadow
+Outline
+Position as UV1
+Interaction Components
+Selectable Base Class
+Transition Options
+Navigation Options
+Button
+Toggle
+Toggle Group
+Slider
+Scrollbar
+Dropdown
+Input Field
+Scroll Rect
+Auto Layout
+Layout Element
+Content Size Fitter
+Aspect Ratio Fitter
+Horizontal Layout Group
+Vertical Layout Group
+Grid Layout Group
+UI How Tos
+Designing UI for Multiple Resolutions
+Making UI elements fit the size of their content
+Creating a World Space UI
+Creating UI elements from scripting
+Creating Screen Transitions
+Immediate Mode GUI (IMGUI)
+IMGUI Basics
+Controls
+Customization
+IMGUI Layout Modes
+Extending IMGUI
+GUI Skin (IMGUI System)
+GUI Style (IMGUI System)
+Navigation and Pathfinding
+Navigation Overview
+Navigation System in Unity
+Inner Workings of the Navigation System
+Building a NavMesh
+NavMesh building components
+NavMesh Surface
+NavMesh Modifier
+NavMesh Modifier Volume
+NavMesh Link
+NavMesh building components API
+Advanced NavMesh Bake Settings
+Creating a NavMesh Agent
+Creating a NavMesh Obstacle
+Creating an Off-mesh Link
+Building Off-Mesh Links Automatically
+Building Height Mesh for Accurate Character Placement
+Navigation Areas and Costs
+Loading Multiple NavMeshes using Additive Loading
+Using NavMesh Agent with Other Components
+Navigation Reference
+NavMesh Agent
+Nav Mesh Obstacle
+Off-Mesh Link
+Navigation How-Tos
+Telling a NavMeshAgent to Move to a Destination
+Moving an Agent to a Position Clicked by the Mouse
+Making an Agent Patrol Between a Set of Points
+Coupling Animation and Navigation
+Unity Services
+Setting up your project for Unity Services
+Unity Organizations
+Subscriptions and seats
+Managing your Organization
+Managing your Organization’s Projects
+Transfer a Project to a new Organization
+Working with Unity Teams
+Unity Ads
+Unity developer integration
+Unity Analytics
+Unity Analytics Overview
+Setting Up Analytics
+Analytics Dashboard
+Overview page
+Data Explorer
+Funnel Analyzer page
+Segment Builder
+Remote Settings page
+Livestream page
+Raw Data Export page
+Event Manager
+Configure page
+Market Insights
+Analytics events
+Core Events
+Standard Events
+Custom Events
+Custom Event scripting
+Analytics Event Tracker
+Analytics event parameters
+Analytics Event limits
+Funnels
+Remote Settings
+Creating and changing Remote Settings
+Using Remote Settings in a Unity project
+Remote Settings network requests
+Enabling Remote Settings
+Managing Remote Settings in the Unity Editor
+Remote Settings component
+Remote Settings scripting
+Testing Remote Settings
+Unity Analytics A/B Testing
+Monetization
+Receipt Verification
+User Attributes
+Unity Analytics Raw Data Export
+Data reset
+Upgrading Unity Analytics
+Upgrade Unity Analytics 4.x-5.1 (SDK) to 5.2 onwards
+Upgrade Unity Analytics 5.1 to 5.2 onwards
+Unity Analytics Re-integrate SDK to 5.1
+What to Do if Project IDs Don't Match
+COPPA Compliance
+Unity Analytics and the EU General Data Protection Regulation (GDPR)
+Unity Analytics DataPrivacy API
+Analytics Metrics, Segments, and Terminology
+Unity Cloud Build
+Automated Build Generation
+Supported platforms
+Supported versions of Unity
+Version control systems
+Using the Unity Developer Dashboard to configure Unity Cloud Build for Git
+Using the Unity Editor to configure Unity Cloud Build for Git
+Using the Unity Developer Dashboard to configure Unity Cloud Build for Mercurial
+Using the Unity Editor to configure Unity Cloud Build for Mercurial
+Using Apache Subversion (SVN) with Unity Cloud Build
+Using the Unity Developer Dashboard to configure Unity Cloud Build for Perforce
+Using the Unity Editor to configure Unity Cloud Build for Perforce
+Building for iOS
+Advanced options
+Development builds
+Pre- and post-export methods
+Xcode frameworks
+Custom scripting #define directives
+Including specific Scenes
+Build manifest
+Build manifest as JSON
+Build manifest as ScriptableObject
+Cloud Build REST API
+﻿Unity IAP
+Setting up Unity IAP
+Configuring for Apple App Store and Mac App Store
+Configuring for Google Play Store
+Configuring for Windows Store
+Configuration for the Amazon Appstore
+Samsung Galaxy IAP configuration
+Cross Platform Guide
+Codeless IAP
+Defining products
+Subscription Product support
+Initialization
+Browsing Product Metadata
+Initiating Purchases
+Processing Purchases
+Handling purchase failures
+Restoring Transactions
+﻿Purchase Receipts
+Receipt validation
+Store Extensions
+Cross-store installation issues with Android in-app purchase stores
+Store Guides
+iOS & Mac App Stores
+Universal Windows Platform
+Google Play
+Amazon Appstore and Amazon Underground Store
+Samsung Galaxy apps
+CloudMoolah MOO store
+Unity IAP Xiaomi integration guide
+Unity Channel SDK and API extensions
+Implementing a Store
+Initialization
+Retrieving products
+Handling purchases
+Store Modules
+Registering your store
+Store Configuration
+Store Extensions
+IAP Promo
+IAP Promo integration
+IAP Promo Product Catalogs
+Promotions
+Native Promos
+Unity Collaborate
+Setting up Unity Collaborate
+Adding team members to your Unity Project
+Viewing history
+Enabling Cloud Build with Collaborate
+Managing Unity Editor versions
+Reverting files
+Resolving file conflicts
+Excluding Assets from publishing to Collaborate
+Publishing individual files to Collaborate
+Restoring previous versions of a project
+In-Progress edit notifications
+Managing cloud storage
+Moving your Project to another version control system
+Collaborate troubleshooting tips
+Unity Cloud Diagnostics
+Unity Integrations
+Multiplayer Services
+XR
+XR SDKs
+Google VR
+Google VR hardware and software requirements
+Google VR quick start guide
+Supported APIs and SDKs
+Google VR controllers and input devices
+Google VR features overview
+Unity Google VR Video Async Reprojection
+Google VR resources and troubleshooting
+Vuforia
+Vuforia hardware and software requirements
+Vuforia quick start guide
+Setting up your Project for Vuforia
+Setting up Image Targets
+Importing and activating the Target Database in Unity
+Adding Image Targets to your Scene
+Displaying 3D models on top of tracked images
+Vuforia platform configuration settings
+Vuforia tips, troubleshooting and resources
+Windows Mixed Reality
+WMR hardware and software requirements
+*WMR* quick start guide
+WMR input and interaction concepts
+WMR testing during development
+HoloLens WorldAnchor persistence
+HoloLens Anchor Sharing
+HoloLens Web Camera
+HoloLens photo capture
+HoloLens video capture
+HoloLens Spatial Mapping
+Spatial Mapping components
+SpatialMapping Components General Settings
+Spatial Mapping Collider
+Spatial Mapping Renderer
+Spatial Mapping low level API
+Spatial Mapping common troubleshooting issues
+Unity XR input
+Input for Windows Mixed Reality
+Input for OpenVR controllers
+Input for Oculus
+Daydream Controllers
+XR API reference
+Mixed Reality Devices
+VR overview
+VR devices
+Oculus
+OpenVR
+Single Pass Stereo rendering (Double-Wide rendering)
+Single Pass Instanced rendering
+Single-Pass Stereo Rendering for HoloLens
+VR Audio Spatializers
+VR frame timing
+Open-source repositories
+How to contribute to Unity
+Step 1: Get a Bitbucket account
+Step 2: Fork the repository you want to contribute to
+Step 3: Clone your fork
+Step 4: Apply modifications to your fork
+Step 5: Open a pull request on Bitbucket
+Step 6: Wait for feedback
+Further Reading
+FAQ
+Asset Store Publishing
+Adding Keywords to Assets
+Asset Store Publisher Administration
+Asset Store FAQ
+Asset Store Publishing Guide
+DeprecateAssetGuide
+Asset Store Manual
+Publisher Admin Section Overview
+Setting up Google Analytics
+Viewing the status of your Asset Store submissions
+Refunding your customers
+Removing your Assets from the Asset Store
+Providing support
+Asset Store promotions
+Platform-specific
+Standalone
+Player settings for Standalone platforms
+Multi-display
+macOS
+macOS Player: IL2CPP Scripting Backend
+macOS Player: C++ source code plugins for IL2CPP
+Delivering your application to the Mac App Store
+Apple TV
+Building games for Apple TV
+WebGL
+Player settings for the WebGL platform
+Getting started with WebGL development
+WebGL Browser Compatibility
+Building and running a WebGL project
+WebGL: Deploying compressed builds
+Debugging and troubleshooting WebGL builds
+WebGL Graphics
+WebGL Networking
+Using Audio In WebGL
+WebGL performance considerations
+Memory in WebGL
+WebGL: Interacting with browser scripting
+Using WebGL Templates
+Cursor locking and full-screen mode in WebGL
+Input in WebGL
+iOS
+Getting started with iOS development
+Unity iOS Basics
+iOS account setup
+Inside the iOS build process
+Structure of a Unity XCode Project
+Customizing an iOS Splash Screen
+iOS Hardware Guide
+Player settings for the iOS platform
+iOS 2D Texture Overrides
+Upgrading to 64-bit iOS
+iOS Advanced Topics
+Unity Remote
+iOS Scripting
+iOS Game Controller support
+Advanced Unity Mobile Scripting
+Optimizing Performance on iOS
+iOS-specific optimizations
+Measuring performance with the built-in profiler
+Optimizing the size of the built iOS Player
+Optimizing Physics Performance
+Building Plugins for iOS
+Preparing your application for In-App Purchases (IAP)
+Customising WWW requests on iOS
+App thinning
+Managed stack traces on iOS
+Features currently not supported by Unity iOS
+Troubleshooting on iOS devices
+Reporting crash bugs on iOS
+Android
+Android용 개발 시작
+Android environment setup
+Unity Remote
+Android Remote(제외예정)
+Troubleshooting Android development
+Android용 앱 빌드
+Android에서 크래시 버그 리포트
+APK 확장 파일(OBB) 지원
+Android 스크립팅
+Advanced Unity mobile scripting
+Building and using plug-ins for Android
+AAR plug-ins and Android Libraries
+JAR plug-ins
+Extending the UnityPlayerActivity Java Code
+Native (C++) plug-ins for Android
+Using Java or Kotlin source files as plug-ins
+Customizing an Android Splash Screen
+Android용 싱글 패스 스테레오 렌더링
+Player settings for the Android platform
+Android 2D Textures Overrides
+Android용 Gradle
+Gradle 문제 해결
+Android 매니페스트
+Requesting Permissions
+Facebook
+Getting started with Facebook development
+Player settings for the Facebook platform
+Windows
+Windows General
+Windows standalone Player build binaries
+﻿Windows Debugging
+WindowsLowIntegrity
+Windows Player: IL2CPP Scripting Backend
+Windows Player: IL2CPP build files
+Windows Player: C++ source code plugins for IL2CPP
+Universal Windows Platform
+﻿Getting Started
+﻿Universal Windows Platform: Deployment
+﻿Universal Windows Platform: Profiler
+Universal Windows Platform: Command line arguments
+﻿Universal Windows Platform: Association launching
+AppCallbacks class
+Universal Windows Platform: WinRT API in C# scripts
+Player settings for the Universal Windows platform
+Scripting Backends
+Universal Windows Platform: .NET Scripting Backend
+﻿Universal Windows Platform: Generated project with .NET scripting backend
+Universal Windows Platform: Missing .NET Types on .NET Scripting Backend
+Universal Windows Platform: Plugins on .NET Scripting Backend
+﻿Universal Windows Platform: Debugging on .NET Scripting Backend
+Universal Windows Platform: IL2CPP scripting back end
+Universal Windows Platform: Generated project with IL2CPP scripting backend
+Universal Windows Platform: Plugins on IL2CPP Scripting Backend
+Universal Windows Platform: Debugging on IL2CPP Scripting Backend
+﻿FAQ
+﻿Universal Windows Platform: Examples
+﻿Universal Windows Platform: Code snippets
+Known issues
+Web Player
+Mobile Developer Checklist
+Crashes
+Profiling
+Optimizations
+Practical guide to optimization for mobiles
+Graphics Methods
+Scripting and Gameplay Methods
+Rendering Optimizations
+Optimizing Scripts
+Experimental
+UIElements Developer Guide
+The Visual Tree
+The Layout Engine
+The UXML format
+Writing UXML Templates
+Loading UXML from C&#35;
+UXML Elements Reference
+UQuery
+Styles and Unity style sheets
+USS selectors
+Properties types
+USS supported properties
+The Event System
+Dispatching Events
+Responding to Events
+Synthesizing Events
+Event Type Reference
+Built-in Controls
+Supporting IMGUI
+ViewData persistence
+Scripted Importers
+Look Dev
+Overview
+The Look Dev view
+Control panel
+Settings menu
+Views menu
+HDRI environments in Look Dev
+The HDRI view
+HDRI menus
+Environment Shadow
+Scripting Runtime
+Legacy Topics
+Windows Store: Windows SDKs
+Windows Phone 8.1
+Windows Phone 8.1: Debugging
+Windows 8.1 Universal Applications
+Universal Windows 10 Applications: Getting Started
+Asset Server (Team License)
+Setting up the Asset Server
+Legacy Asset Bundles
+Creating Asset Bundles in Unity 4
+Managing Asset Dependencies in Unity 4
+Legacy Animation System
+Animation
+Animation Scripting (Legacy)
+Legacy GUI
+GUI Text (Legacy UI Component)
+GUI Texture (Legacy UI Component)
+Legacy Unity Analytics (SDK Workflow)
+Basic Integration (SDK)
+Import SDK
+Create Game Script
+Attach Game Script
+Play To Validate
+Advanced Integration (SDK)
+Custom Events
+Monetization
+Receipt Verification
+User Attributes
+LegacyUnityRemote
+Unity Remote
+Unity Remote 3 (DEPRECATED)
+Best practice guides
+Understanding optimization in Unity
+Profiling
+Memory
+Coroutines
+Asset auditing
+Understanding the managed heap
+Strings and text
+The Resources folder
+General Optimizations
+Special optimizations
+Making believable visuals in Unity
+Preparing Assets for Unity
+Preparing render settings in Unity
+Lighting strategy
+Modelling
+Shading
+Outdoor lighting and Scene setup
+Indoor and local lighting
+Understanding post-processing
+Dynamic lighting
+Best Practice: Setting up the Lighting Pipeline
+Expert guides
+New in Unity 2018.3
+Packages Documentation
+Glossary
+Unity User Manual (2018.3)
+Platform-specific
+WebGL
+Getting started with WebGL development
+Memory in WebGL
+WebGL performance considerations
+WebGL: Interacting with browser scripting
+Memory in WebGL
+Memory in Unity WebGL can be a constraining factor restricting the complexity of the content you can run, so we would like to provide some explanation on how memory is used in WebGL.
+Your WebGL content will run inside a browser, so any memory has to be allocated by the browser within the browser’s memory space. The amount of available memory can vary a lot depending on the browser, OS and device used. Determining factors include whether the browser is a 32 or 64 bit process, whether the browser uses separate processes for each tab or has your content share a memory space with all other open tabs, and how much memory the browser’s JavaScript engine requires to parse your code.
+There are multiple areas where Unity WebGL content will require the browser to allocate significant amounts of memory:
+Unity Heap
+This is the memory Unity uses to store all its state, managed and native objects and currently loaded assets and scenes. This is similar to the memory used by Unity Players on any other platform. You can configure the size of this in the Unity WebGL Player settings (But for faster iteration, you can also edit the TOTAL_MEMORY value written to the generated html file). You can use the Unity
+Profiler
+to profile and sample the contents of this memory. This memory will be created as a TypedArray of bytes in JavaScript code, and requires the browser to be able to allocate a consecutive block of memory of this size. You want this space to be as small as possible (so that the browser can allocate it even if memory is fragmented), but large enough to fit all the data required to play any scene of your content.
+Asset Data
+When you create a Unity WebGL build, Unity will write out a .data file containing all the scenes and assets needed for your content. Since WebGL does not have a real file system, this file will be downloaded before your content can start, and the uncompressed data will be kept in a consecutive block of browser memory for the whole time your content is run. So, to keep both download times and memory usage low, you should try to keep this data as small as possible. See the documentation page on
+Reducing File size
+for information on how to optimize the build size of your assets.
+Another thing you can do to reduce load times and the amount of memory used for assets is to pack your asset data into
+AssetBundles
+. By doing so, you get full control of when your assets need to be downloaded, and you can unload them when you no longer need them, which will free any memory used by them. Note that AssetBundles will be loaded directly into the Unity heap and will not result in additional allocations by the browser (unless you use Asset Bundle Caching using
+WWW.LoadFromCacheOrDownload
+, which is using a memory-mapped Virtual File System, backed by the browser’s IndexedDB).
+Memory needed to parse the code
+Another issue related to memory is the memory required by the browser’s JavaScript engine. Unity will emit very large files of millions of lines of generated JavaScript code, which is an order of magnitude larger than common uses of JavaScript code in browsers. Some JavaScript engines may allocate some rather large data structures to parse and optimize this code, which may results in memory spikes of up to several Gigabytes of memory when loading the content in some cases. We expect that future technologies like WebAssembly will eventually eliminate this problem, but until then, the best advise we can give is to do what you can to keep the size of the emitted code low. See the comments on distribution size
+here
+for more information on how to do that.
+Dealing with memory issues
+When you see an error related to memory in a Unity WebGL build, it is important to understand whether it is the browser which is failing to allocate memory or if the Unity WebGL runtime is failing to allocate a free block of memory within the pre-allocated block of the Unity heap. If the browser is failing to allocate memory, then it may help to try to reduce the size used by one or more of the memory areas above (for instance by reducing the size of the Unity heap). On the other hand, if the Unity runtime is failing to allocate a block inside the Unity heap, you may want to increase the size of that instead.
+Unity will try to interpret error messages to tell which of the two it is (and provide suggestions on what to do). Since different browsers may report different messages, that is not always easy, however, and we may not be interpreting all of them. When you see a generic “Out of memory” error from the browser, it is likely to be an issue of the browser running out of memory (where you might want to use a smaller Unity heap). Also, you may sometimes see browsers simply crashing when loading Unity content without showing a human-parseable error message. This can have many reasons, but is frequently caused by JavaScript engines requiring too much memory to parse and optimize the generated code.
+Large-Allocation Http Header
+Your server can emit the
+Large-Allocation
+http header for your content. This tells supported browsers (currently only Firefox) about your memory needs, allowing them to spawn a new process with an unfragmented memory space, or to perform other housekeeping to make sure that the large allocation succeeds. This can solve issues where the browser runs out of memory when trying to allocate the Unity heap, especially on 32-bit browsers.
+Garbage Collection considerations
+When you allocate managed objects in Unity, they will need to be garbage collected when they are no longer used. See our documentation on
+automatic memory management
+for more information. In WebGL, this is the same. Managed, garbage collected memory is allocated inside the Unity heap.
+One distinction in WebGL, however, concerns the points in time when garbage collection (GC) can take place. To perform garbage collection, the GC would normally need to pause all running threads and inspect their stacks and registers for loaded object references. This is not currently possible in JavaScript. For this reason, the GC will only run in WebGL in situations where the stack is known to be empty (which is currently once after every frame). This is not a problem for most content which deals with managed memory conservatively and has relatively few GC allocations within each frame (you can debug this using the Unity profiler).
+However, the following code would fail running on WebGL, becuase it would not get a chance to run the GC between iterations of the loop, to free up memory used by all the intermediate string objects - which would eventually cause it to run out of memory in the Unity heap.
+string hugeString = "";
+for (int i = 0; i < 100000; i++)
+{
+hugeString += "foo";
+}
+Further reading
+Unity blog: Understanding Memory in Unity WebGL
+Unity blog: Unity WebGL Memory: The Unity Heap
+2018–08–23 Page amended with no
+editorial review
+WebGL performance considerations
+WebGL: Interacting with browser scripting
+Copyright © 2020 Unity Technologies. Publication 2018.3
+Tutorials
+Community Answers
+Knowledge Base
+Forums
+Asset Store
+법률정보
+개인정보처리방침
+쿠키
+내 개인정보 판매 금지
+쿠키 기본 설정
+개인정보 선호 센터
+Your Opt Out Preference Signal is Honored
+사생활 보호
+기능적 쿠키
+성능 관련 쿠키
+광고 쿠키
+필수 쿠키
+사생활 보호
+방문하는 모든 웹사이트의 정보가 브라우저에서 쿠키 형태로 저장되거나 수집될 수 있습니다. 본 정보는 귀하와 귀하의 선호도, 기기에 대한 것이며, 귀하의 선호도에 따라 사이트가 동작하도록 하는 데 사용됩니다. 본 정보는 귀하를 직접적으로 식별하지 않으나 보다 개인화된 웹 경험을 제공하기 위해 사용됩니다. 그러나 일부 쿠키를 거부할 수 있습니다. 더 자세한 정보를 확인하고 기본 설정을 변경하려면 해당 카테고리의 제목을 클릭하세요. 그러나 일부 쿠키를 차단하면 귀하의 사이트 경험과 회사에서 제공하는 서비스에 영향을 미칠 수 있습니다.
+추가 정보
+기능적 쿠키
+기능적 쿠키
+활성
+본 쿠키는 동영상 및 실시간 채팅과 같은 고급 기능과 개인화를 허용합니다. 쿠키는 회사 또는 회사 페이지에 추가된 제3 서비스 사업자가 설정할 수 있습니다. 쿠키를 허용하지 않으면 일부 기능이 정상 작동하지 않을 수 있습니다.
+쿠키 세부 정보‎
+성능 관련 쿠키
+성능 관련 쿠키
+활성
+이 쿠키는 방문자 수, 데이터 트래픽 정보를 확인해 회사 사이트의 성능을 측정하고 개선할 수 있도록 합니다. 또한 가장 인기가 많거나 인기가 적은 페이지를 확인하며 방문자가 사이트를 이동하는 방법을 확인할 수 있도록 합니다. 쿠키가 수집하는 모든 정보는 누적되며 익명 처리됩니다. 쿠키를 허용하지 않으면 귀하가 회사 사이트에 방문한 시기를 알 수 없습니다.
+쿠키 세부 정보‎
+광고 쿠키
+광고 쿠키
+활성
+이 쿠키는 회사의 광고 협력사가 회사 사이트에 설정한 것입니다. 해당 협력사는 귀하의 관심사에 대한 프로파일을 만들고 다른 사이트에서도 관련 광고를 표시하기 위해 이 쿠키를 사용합니다. 이 쿠키는 귀하의 브라우저와 기기를 식별함으로써 동작합니다. 이 쿠키를 허용하지 않으면 다른 웹사이트에서 회사가 제공하는 맞춤형 광고를 경험할 수 없습니다.
+쿠키 세부 정보‎
+필수 쿠키
+항상 활성화
+이 쿠키는 웹사이트의 기능을 위해 필수적이며, 회사 시스템 내에서 종료할 수 없습니다. 이 쿠키는 개인정보 선호도, 로그인 또는 양식 작성과 같은 서비스 요청에 해당하는 귀하의 행위에 따라서만 주로 설정됩니다. 귀하의 브라우저에서 이 쿠키를 차단하거나 쿠키에 대해 알림 설정을 할 수 있지만, 이 경우 해당 사이트의 일부 기능이 동작하지 않을 수 있습니다.
+쿠키 세부 정보‎
+Back Button
+쿠키 목록
+Filter Button
+Consent
+Leg.Interest
+checkbox label
+label
+checkbox label
+label
+checkbox label
+label
+Clear
+checkbox label
+label
+Apply
+Cancel
+내 선택 확인
+모두 거부
+모두 허용
